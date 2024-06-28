@@ -1,6 +1,6 @@
 import { ErrorBoundary, FallbackProps } from "react-error-boundary";
 
-function fallbackRender({ error, resetErrorBoundary }: FallbackProps) {
+export function fallbackRender({ error, resetErrorBoundary }: FallbackProps) {
   return (
     <div role="alert">
       <p>Something went wrong:</p>
